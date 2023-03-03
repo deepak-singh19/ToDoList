@@ -18,8 +18,8 @@ function App() {
     }
   });
 
-  const[checked, setChecked]= useState(false);
-  const[color, setColor]= useState("red");
+  // const[checked, setChecked]= useState(false);
+  // const[color, setColor]= useState("red");
 
 
   const handle=(event)=>{
@@ -42,14 +42,14 @@ function App() {
 
   const completeTask=(index)=>{
 
-    (color=="red")? setColor("green"): setColor("red");
+    // (color=="red")? setColor("green"): setColor("red");
     // setColor("green");
     // if(!checked){
     //   setChecked(true);
     // }else{
     //   setChecked(false);
     // }
-    console.log(color);
+    // console.log(color);
     const newTask=[...list];
     console.log(newTask);
     // console.log(newTask.index);
